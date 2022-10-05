@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp-flex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="categorie.html">Categorie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact">
+
+        <h1>Nous contacter</h1>
+
+
+
+        <fieldset>
+            <legend>Vos données personnelles</legend>
+            <div>
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom">
+            </div>
+            <div>
+                <label for="firstName" id="firstName" name="firstName" placeholder="Votre prénom">Prénom</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="birthday" id="birthday" name="birthday">Date de naissance</label>
+                <input type="date">
+            </div>
+            <fieldset>
+                <legend>Lieu de naissance</legend>
+
+                <input type="radio" id="ssd" name="ssd">
+                <label for="ssd">Seine-Saint-Denis</label>
+
+                <input type="radio" id="rdm" name="rdm">
+                <label for="rdm">Reste du monde</label>
+            </fieldset>
+
+            <div>
+                <label for="adress">Adresse postale</label>
+                <input type="text" id="adress" name="adress" placeholder="Votre adresse">
+            </div>
+            <div>
+                <label for="zipcode">Code postal</label>
+                <input type="text" id="zipcode" name="zipcode" placeholder="93000">
+            </div>
+            <div>
+                <label for="email">Adresse électronique</label>
+                <input type="email" id="email" name="email" placeholder="Votre adresse électronique">
+            </div>
+            <div>
+                <label for="pagePerso">Page personnelle</label>
+                <input type="text" id="pagePerso" name="pagePerso" placeholder="Votre page web">
+            </div>
+            <div>
+                <label for="phone">Téléphone portable</label>
+                <input type="text" id="phone" name="phone" placeholder="0705055558">
+            </div>
+            <div>
+                <label for="semestre">Semestre</label>
+                <select name="semestre" id="semestre">
+                    <option value="S1">S1</option>
+                    <option value="S2" selected>S2</option>
+                </select>
+            </div>
+            <div>
+                <label for="levelHtml">Niveau en HTML</label>
+                <input  type="range" id="levelHtml" name="levelHtml"  min="0" max="10">
+            </div>
+            <fieldset>
+                <legend>Connaissances</legend>
+
+                <input type="checkbox" id="html" name="html">
+                <label for="html">HTML</label>
+
+                <input type="checkbox" id="css" name="css">
+                <label for="css">CSS</label>
+
+                <input type="checkbox" id="formulaire" name="formulaire">
+                <label for="formulaire">Formulaires</label>
+
+                <input type="checkbox" id="javascript" name="javascript">
+                <label for="javascript">Javascript</label>
+            </fieldset>
+
+            <input type="submit" name="submit" value="Envoyer">
+
+
+        </fieldset>
+
+    </main>
+    <footer>
+        <div>
+            <video controls>
+                <source src="Morbius.mkv" type="video/mp4">
+                </source>
+                <source src="#.avi" type="video/avi">
+                </source>
+            </video>
+        </div>
+        <div>
+            <ul>
+                <li>Entreprise</li>
+                <li>Adresse</li>
+                <li> Ville</li>
+            </ul>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae repellat,
+                dignissimos similique incidunt, aliquam ea iusto magnam consectetur dolorem qui cupiditate dolorum
+                sequi esse quis error. Inventore tempore aliquam nulla odio, doloremque,
+                doloribus nihil vero velit similique soluta, error blanditiis!</p>
+        </div>
+    </footer>
+</body>
+
+</html>
