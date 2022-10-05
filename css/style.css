@@ -1,15 +1,39 @@
-.contact h1 {
+.contact h1{
     color: blue;
     font-size: 18;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.contact main {
+header a:link{
+    color: white;
+    background-color: grey;
+}
+
+header a:hover{
+    color: yellow;
+    background-color: black;
+}
+
+header a:visited{
+    color: grey;
+    background-color: black;
+}
+
+header ul{
+    padding: 10px;
+    margin: 10px;
+}
+
+footer div {
+    color: white;
+    background-color: aquamarine;
+}
+.contact main{
     text-align: center;
     font-family: monospace;
 }
 
-.contact body {
+.contact body{
     display: flex;
 
     justify-content: center;
@@ -19,120 +43,31 @@
     flex-direction: column;
 }
 
-.contact button[type="submit"] {
+.contact button[type="submit"]{
     margin-right: 430px;
     margin-top: 10px;
 }
 
-.contact fieldset>legend {
+.contact fieldset>legend{
     text-transform: uppercase;
     text-align: left;
     padding: 0;
 }
 
-.contact ul {
+.contact ul{
     list-style: none;
     text-align: left;
     padding: 0;
 }
 
 
-.contact ul li {
+.contact ul li{
     padding: 0;
     margin: 0;
 }
 
 
-.contact #fieldset-connaissances {
+.contact #fieldset-connaissances{
     color: red;
     background-color: rgb(185, 190, 254);
-}
-
-
-header a:link {
-    color: white;
-    background-color: grey;
-}
-
-header a:hover {
-    color: yellow;
-    background-color: black;
-}
-
-header a:visited {
-    color: grey;
-    background-color: black;
-}
-
-header ul {
-    padding: 10px;
-    margin: 10px;
-}
-
-footer div {
-    color: white;
-    background-color: aquamarine;
-}
-
-.index h1 {
-    font-weight: bold;
-    font-style: italic;
-}
-
-
-
-
-
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.categorie ol {
-    display: flex;
-    list-style: none;
-    justify-content: center
-}
-
-.categorie ol li {
-    margin: 0 20px;
-    padding: 10px;
-}
-
-
-.categorie .feColor {
-    background-color: green;
-
-}
-
-.categorie .beColor {
-    background-color: red;
-}
-
-.categorie .mobColor {
-    background-color: yellow;
-    text-align: center;
-}
-
-.categorie .hybColor {
-    background-color: black;
-    color: white;
-}
-
-.categorie table {
-    background-color: white;
-    margin: auto;
-}
-
-.categorie table tr {
-    background-color: rgb(219, 219, 219);
-}
-
-.categorie table th {
-    background-color: black;
-    text-decoration: underline;
-    color: white;
-    height: 30px;
-    padding: 10px 2px;
-
 }
