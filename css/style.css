@@ -4,6 +4,31 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+header a:link {
+    color: white;
+    background-color: grey;
+}
+
+header a:hover {
+    color: yellow;
+    background-color: black;
+}
+
+header a:visited {
+    color: grey;
+    background-color: black;
+}
+
+header ul {
+    padding: 10px;
+    margin: 10px;
+}
+
+footer div {
+    color: white;
+    background-color: aquamarine;
+}
+
 .contact main {
     text-align: center;
     font-family: monospace;
@@ -46,6 +71,7 @@
 .contact #fieldset-connaissances {
     color: red;
     background-color: rgb(185, 190, 254);
+    <<<<<<< HEAD
 }
 
 
@@ -129,5 +155,4 @@ footer div {
     color: white;
     height: 30px;
     padding: 10px 2px;
-
 }
